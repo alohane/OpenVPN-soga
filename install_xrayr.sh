@@ -78,8 +78,8 @@ install_base() {
         yum install epel-release -y
         yum install wget curl unzip tar crontabs socat -y
     else
-        apt update -y
-        apt install wget curl unzip tar cron socat -y
+        apk update
+        apk add --no-cache wget curl tar socat
     fi
 }
 
