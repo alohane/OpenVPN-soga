@@ -15,7 +15,7 @@ services:
     volumes:
       - ./vpn.ovpn:/vpn.ovpn
       - ./vpn.auth:/vpn.auth
-      - ./soga.conf:/etc/soga/soga.conf
+      - ./config.yml:/etc/XrayR/config.yml
       #- ./ssl.key:/ssl.key
       #- ./ssl.pem:/ssl.pem
       #- ./routes.yml:/etc/soga/routes.yml

@@ -3,8 +3,8 @@ FROM alpine:latest
 WORKDIR /
 
 # install soga
-COPY install_soga.sh /install_soga.sh
-RUN /bin/sh /install_soga.sh
+COPY install_xrayr.sh /install_xrayr.sh
+RUN /bin/sh /install_xrayr.sh
 
 # install software
 RUN true \

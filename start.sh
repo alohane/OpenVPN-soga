@@ -61,6 +61,6 @@ echo -e "${NETWORK}/${PREFIX} via ${GATEWAY}\n"
 
 
 echo "==========soga========="
-cd /usr/local/soga/
-nohup /usr/local/soga/soga -c /etc/soga/soga.conf -r /etc/soga/routes.yml &
+cd /usr/local/XrayR/
+nohup /usr/local/XrayR/XrayR -c /etc/XrayR/config.yml &
 exit 0
