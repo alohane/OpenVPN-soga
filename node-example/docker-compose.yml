@@ -16,7 +16,8 @@ services:
       - ./vpn.ovpn:/vpn.ovpn
       - ./vpn.auth:/vpn.auth
       - ./config.yml:/etc/XrayR/config.yml
-      #- ./ssl.key:/ssl.key
+      - ./web.crt:/web.crt
+      - ./web.key:/web.key
       #- ./ssl.pem:/ssl.pem
       #- ./routes.yml:/etc/soga/routes.yml
       #- ./dns.yml:/etc/soga/dns.yml
