@@ -62,5 +62,5 @@ echo -e "${NETWORK}/${PREFIX} via ${GATEWAY}\n"
 
 echo "==========soga========="
 cd /usr/local/XrayR/
-nohup /usr/local/XrayR/XrayR -c /etc/XrayR/config.yml &
+nohup /usr/local/XrayR/XrayR -config /etc/XrayR/config.yml &
 exit 0
